@@ -94,7 +94,7 @@ with gr.Blocks(css=".left-column { height: 90vh; } .right-column { height: 90vh;
                     "로마 제국의 멸망 원인은 무엇인가요?",
                     "chatgpt는 언제 출시되었나요?",
                 ],
-                title="Search in Wiki",
+                title="Chat with Wiki",
             )
             chatbot.chatbot.height = 300
         with gr.Column(elem_classes="right-column"):
